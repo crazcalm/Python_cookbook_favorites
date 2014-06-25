@@ -56,7 +56,5 @@ print("after heapify(): ", heap)
 item. Moreover, subsequent items can be easily found using the heapq.heappop()
 method, which pops off the first item and replaces it with the next smallest
 item (and operations that requires O(log(N)) operations when N is the size of
-the heap).
-
-   
+the heap). 
 """
