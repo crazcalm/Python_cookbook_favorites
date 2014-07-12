@@ -44,3 +44,4 @@ if __name__ == "__main__":
             if "python" in line.lower():
                 for lineno, hline in lines.history:
                     print("{}:{}".format(lineno, hline), end="")
+                print("\n\n")
